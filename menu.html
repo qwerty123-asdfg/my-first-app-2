@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>メニュー一覧 - Omotesando Cafe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #fdfaf7;
+      margin: 0;
+      padding: 40px 20px;
+      color: #333;
+    }
+    h2 {
+      color: #e08c86;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .menu-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    .menu-item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 240px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .menu-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .menu-item h3 {
+      color: #e08c86;
+      margin: 10px 0 5px;
+    }
+    .menu-item p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>メニュー一覧</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <img src="latte.jpg" alt="カフェラテ">
+      <h3>カフェラテ</h3>
+      <p>¥600</p>
+    </div>
+    <div class="menu-item">
+      <img src="cheesecake.jpg" alt="チーズケーキ">
+      <h3>チーズケーキ</h3>
+      <p>¥520</p>
+    </div>
+    <div class="menu-item">
+      <img src="sandwich.jpg" alt="クロワッサンサンド">
+      <h3>クロワッサンサンド</h3>
+      <p>¥680</p>
+    </div>
+    <!-- もっと追加OK -->
+  </div>
+</body>
+</html>
